@@ -2,6 +2,7 @@ function preload(){
   // put preload code here
 }
 
+<<<<<<< HEAD
 var myList1 = [
   '#d2b5a3',
   '#4c5a69',
@@ -26,11 +27,16 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
    background(0)
    frameRate(3);
-}
+=======
 
+function setup() {
+ 
+>>>>>>> 04195053cdd160fa3abdd695c770fbfae9e8bae9
+}
 function draw() {
   // put drawing code here
 
+<<<<<<< HEAD
 for (var x = 10; x < width; x += 25) {
   for (var y = 10; y < height; y += 25 )
  {
@@ -59,5 +65,7 @@ for (var x = 10; x < width; x += 25) {
    textFont('Futura.light');
    text('Click on the screen!', 95, 75);
 
+=======
+>>>>>>> 04195053cdd160fa3abdd695c770fbfae9e8bae9
 
 }
